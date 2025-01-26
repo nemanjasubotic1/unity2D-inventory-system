@@ -12,7 +12,7 @@ public class DataPersistanceManager : MonoBehaviour
 
     private void Awake()
     {
-        fileDataHandler = new FileDataHandler(@"C:\Users\Rajko\Desktop\Platformer2DMoja", fileName);
+        fileDataHandler = new FileDataHandler(@"localPATH", fileName);
 
         savebleDatas = GetSavebleDatas();
     }
